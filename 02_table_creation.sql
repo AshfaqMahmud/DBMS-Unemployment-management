@@ -25,7 +25,7 @@ create table company(
 );
 
 CREATE TABLE companyLoc(
-    ID int,
+    ID int NOT NULL  PRIMARY key,
     country varchar(40),
     city varchar(30),
     road varchar(10),
