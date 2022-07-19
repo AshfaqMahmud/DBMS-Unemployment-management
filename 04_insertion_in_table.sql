@@ -130,48 +130,45 @@ INSERT INTO work (ID,Name) VALUES (214,'Quality Engineer');
 INSERT INTO work (ID,Name) VALUES (215,'Internship');
 
 
-INSERT INTO companyWork (ID_work,ID_company) VALUES (201,100);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (202,100);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (203,100);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (209,100);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (201,100,1);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (202,100,4);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (203,100,0);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (209,100,0);
 
-INSERT INTO companyWork (ID_work,ID_company) VALUES (201,101);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (202,101);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (204,101);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (209,101);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (201,101,0);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (202,101,1);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (204,101,1);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (209,101,0);
 
-INSERT INTO companyWork (ID_work,ID_company) VALUES (202,102);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (205,102);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (209,102);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (214,102);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (202,102,0);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (205,102,3);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (209,102,0);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (214,102,2);
 
-INSERT INTO companyWork (ID_work,ID_company) VALUES (201,103);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (202,103);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (203,103);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (204,103);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (205,103);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (206,103);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (207,103);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (209,103);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (201,103,2);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (202,103,1);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (206,103,2);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (204,103,1);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (205,103,1);
 
-INSERT INTO companyWork (ID_work,ID_company) VALUES (202,104);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (203,104);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (204,104);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (202,104,2);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (203,104,2);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (204,104,1);
 
-INSERT INTO companyWork (ID_work,ID_company) VALUES (202,105);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (203,105);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (207,105);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (202,105,1);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (203,105,3);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (207,105,3);
 
-INSERT INTO companyWork (ID_work,ID_company) VALUES (210,106);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (211,106);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (214,106);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (209,106);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (210,106,2);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (211,106,2);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (214,106,2);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (209,106,2);
 
-INSERT INTO companyWork (ID_work,ID_company) VALUES (212,107);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (213,107);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (212,107,2);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (213,107,2);
 
-INSERT INTO companyWork (ID_work,ID_company) VALUES (204,110);
-INSERT INTO companyWork (ID_work,ID_company) VALUES (210,110);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (206,110,4);
+INSERT INTO companyWork (ID_work,ID_company,status) VALUES (210,110,2);
 
 
 INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (212,01);

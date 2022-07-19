@@ -57,6 +57,7 @@ create table work(
 create table companyWork(
     ID_work int,
     ID_company int,
+    status int,
     constraint fk_company1 foreign key(ID_company) references company(ID),
     constraint fk_work1 foreign key(ID_work) references work(ID),
     primary key(ID_work, ID_company)
