@@ -31,6 +31,7 @@ INSERT INTO company (ID,Name) VALUES (105,'MARVEL');
 INSERT INTO company (ID,Name) VALUES (106,'BMW');
 INSERT INTO company (ID,Name) VALUES (107,'TigerIT');
 INSERT INTO company (ID,Name) VALUES (110,'BrainCraft');
+INSERT INTO company (ID,Name) VALUES (111,'NULLCompany');
 
 INSERT INTO companyLoc (ID,country,city,road) VALUES (100,'USA','NewYork','707');
 INSERT INTO companyLoc (ID,country,city,road) VALUES (102,'USA','Chicago','108');
@@ -63,43 +64,30 @@ INSERT INTO companyLoc (ID,country,city,road) VALUES (106,'Ireland','Galway','66
 
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (100,'+015125472045');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (100,'+1047895236');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (100,'+1794624785');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (100,'+88021457695');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (100,'+88024789278');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (100,'+521789839874');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (100,'+521784021489');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (100,'+353874692723');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (100,'+353897426420');
 
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (101,'+88024789278');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (101,'+35324789278');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (101,'+1824789278');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (101,'+521024789252');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (101,'+01524789278');
 
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (102,'+88024719278');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (102,'+35324789276');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (102,'+1821789278');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (102,'+521024785252');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (102,'+01524789271');
 
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (103,'+88024119278');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (103,'+35324709278');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (103,'+1824789270');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (103,'+521024789200');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (103,'+01524009278');
 
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (104,'+88024789270');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (104,'+35324789270');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (104,'+1824789270');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (104,'+521024789052');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (104,'+01524789208');
 
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (105,'+88024389270');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (105,'+35394789270');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (105,'+1824780270');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (105,'+521024789052');
-INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (105,'+01524769208');
 
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (107,'+88024389240');
 INSERT INTO companyPhoneNumber(ID,phoneNumber) VALUES (107,'+8802438921');
@@ -122,6 +110,7 @@ INSERT INTO companyMail(ID_company,mail) VALUES (106,'bmwgerman@bmw.com');
 INSERT INTO companyMail(ID_company,mail) VALUES (106,'bmwglobal@bmw.com');
 INSERT INTO companyMail(ID_company,mail) VALUES (107,'tigertIT@gmail.com');
 INSERT INTO companyMail(ID_company,mail) VALUES (110,'braincraft@yahoo.com');
+INSERT INTO companyMail(ID_company,mail) VALUES (111,'null@null.com');
 
 
 INSERT INTO work (ID,Name) VALUES (201,'Ast. Manager');
