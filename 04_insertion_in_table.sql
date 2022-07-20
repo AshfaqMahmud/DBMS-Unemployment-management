@@ -172,18 +172,13 @@ INSERT INTO companyWork (ID_work,ID_company,status) VALUES (210,110,2);
 
 
 INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (212,01);
-INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (213,01);
-INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (201,02);
 INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (212,02);
 INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (202,03);
-INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (203,04);
-INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (204,05);
 INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (206,07);
 INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (207,08);
 INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (208,09);
-INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (209,07);
 INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (210,04);
 INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (215,06);
-INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (206,06);
+INSERT INTO peopleWorkExpertise (ID_work,ID_peopleInfo) VALUES (206,05);
 
 

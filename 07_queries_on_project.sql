@@ -33,7 +33,7 @@ select peopleInfo.ID,peopleInfo.Name, peopleWorkExpertise.ID_work from peopleInf
 --showing people order and group by work--
 select peopleWorkExpertise.ID_work,peopleInfo.ID,peopleInfo.Name from peopleInfo,peopleWorkExpertise where peopleInfo.ID=peopleWorkExpertise.ID_peopleInfo group by peopleWorkExpertise.ID_work,peopleInfo.ID,peopleInfo.name order by peopleWorkExpertise.ID_work;
 --showing people of a specific work expertise by joining 3 tables--
-select work.ID,work.name,peopleworkexpertise.ID_peopleInfo,peopleInfo.name from work 
+select work.ID,work.name,peopleworkexpertise.ID_peopleInfo as person_id,peopleInfo.name person_name from work 
     inner join peopleWorkExpertise on work.ID=peopleWorkExpertise.ID_work
     inner join peopleInfo on peopleWorkExpertise.ID_peopleInfo=peopleInfo.ID order by work.ID;
 --showing people info with number of a specific work expertise by joining 4 tables--
@@ -41,3 +41,25 @@ select work.ID,work.name,peopleworkexpertise.ID_peopleInfo,peopleInfo.name,peopl
     inner join peopleWorkExpertise on work.ID=peopleWorkExpertise.ID_work
     inner join peopleInfo on peopleWorkExpertise.ID_peopleInfo=peopleInfo.ID
     inner join peopleInfoPhoneNumber on peopleWorkExpertise.ID_peopleInfo=peopleInfoPhoneNumber.ID order by work.ID;
+--check vacancy of a post in a company--
+select company.name as company, work.name as post, companywork.status as vacancy from company
+    join companywork on company.ID=companywork.ID_company
+    join work on work.id=companyWork.ID_work
+    group by company.name, work.name, companywork.status
+    order by company.name;
+--showing one people expertise--
+select distinct peopleInfo.name,work.name,peopleWorkExpertise.ID_work from peopleInfo
+    join peopleWorkExpertise on peopleInfo.ID=1 and peopleWorkExpertise.ID_work=212
+    join work on work.id=212;
+--showing specific job available companies--
+select distinct company.name as company, work.name as post, companywork.status as vacancy from company
+    join companywork on companywork.ID_company=company.ID
+    join work on work.id=201;
+select company.name from company where company.ID in (select companyWork.ID_company from companyWork where companyWork.ID_work=201);
+select companyWork.ID_company from companyWork on companyWork.ID_work=201;
+
+--group by vacancy--
+select work.name as post, company.name as company, companywork.status as vacancy from work
+    inner join company on work.id=201
+    inner join companywork on companyWork.ID_work=201 and companywork.ID_company=company.ID
+    group by work.name, company.name,companywork.status;

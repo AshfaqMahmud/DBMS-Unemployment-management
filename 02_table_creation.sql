@@ -25,7 +25,7 @@ create table company(
 );
 
 CREATE TABLE companyLoc(
-    ID int NOT NULL  PRIMARY key,
+    ID int NOT NULL,
     country varchar(40),
     city varchar(30),
     road varchar(10),
@@ -80,7 +80,6 @@ create table employeeManagement(
     ID_company int,
     ID_work int,
     startDateTime date,
-    endDatetime date,
     constraint fk_peopleInfo3 foreign key(ID_peopleInfo) references peopleInfo(ID),
     constraint fk_company3 foreign key(ID_company) references company(ID),
     constraint fk_work3 foreign key(ID_work) references work(ID)
